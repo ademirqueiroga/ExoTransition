@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_player.xml",
+        "source": "/Users/ademir/workspace/ExoTransitionin/app/src/main/res/layout/fragment_player.xml"
+    },
+    {
+        "merged": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/row_video.xml",
+        "source": "/Users/ademir/workspace/ExoTransitionin/app/src/main/res/layout/row_video.xml"
+    },
+    {
+        "merged": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/ademir/workspace/ExoTransitionin/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ademir/workspace/ExoTransitionin/app/src/main/res/layout/activity_main.xml"
+    }
+]
