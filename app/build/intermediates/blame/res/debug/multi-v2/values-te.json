@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml",
+            "outputFile": "/Users/ademir/workspace/classroom/ExoTransition/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/res/values-te/values-te.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "68",
+                        "startColumns": "4",
+                        "startOffsets": "5608",
+                        "endColumns": "100",
+                        "endOffsets": "5704"
+                    }
+                },
+                {
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/00214962e6768c222645d32408ca1729/jetified-exoplayer-ui-2.10.6/res/values-te/values-te.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/75fdef968019adcf1089a81ab0bfcc9c/jetified-exoplayer-ui-2.10.6/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2845,2935,3020,3092,3163,3233,3310,3402,3491,3581,3656,3744,3831,3895,3974,4046,4114,4187,4255,4335,4413,4466,4524,4572,4633,4700,4762,4827,4894,4953,5015,5081,5145,5212,5266,5326,5400,5474",
                         "endColumns": "89,84,71,70,69,76,91,88,89,74,87,86,63,78,71,67,72,67,79,77,52,57,47,60,66,61,64,66,58,61,65,63,66,53,59,73,73,53",
                         "endOffsets": "2930,3015,3087,3158,3228,3305,3397,3486,3576,3651,3739,3826,3890,3969,4041,4109,4182,4250,4330,4408,4461,4519,4567,4628,4695,4757,4822,4889,4948,5010,5076,5140,5207,5261,5321,5395,5469,5523"
-                    }
-                },
-                {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "68",
-                        "startColumns": "4",
-                        "startOffsets": "5608",
-                        "endColumns": "100",
-                        "endOffsets": "5704"
                     }
                 }
             ]

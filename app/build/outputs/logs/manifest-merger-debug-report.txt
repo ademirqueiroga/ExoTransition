@@ -1,214 +1,239 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [androidx.databinding:viewbinding:4.0.0-alpha01] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bacb2e9f9cb28d404528e5c897ddcfc8/jetified-viewbinding-4.0.0-alpha01/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15ce366fd993d4b14f69949366ceceb1/jetified-exoplayer-2.10.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4653f6fd022d638d7d3cc51271299eae/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0aae841188d341154a3b1fb9572b0b01/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7d0fdf149075b4af9bfe5b0a37c8a8ac/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/033e7924ed066e721545efec941b7d0e/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e12bcb59f5cca04704c5500ba1b526b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5985a6ad176b6dae507e8e9bd41b92b7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5f9769373f1803681a7055c81f99421c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f13e0019184ef6aac1a2cbf92d5f2481/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eecc9aa0b9a1b3fce437279cf94dcd7b/transition-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac66b66457a7b9cdb9ab93d2e8233012/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d186eea89e36fa921a5edd1cef39563/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4e707f93671c5f21d4b1e3bd474df8a7/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd99276c75ece92bccd1999b2404e3bd/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b93d28e456cd3dee424cdb26b2b4b08a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d748e4fa12c4f08b89c26ec88aa6fb5e/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/574f4007d3ead9c75165770ab2c57eaa/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b4bd2b03b424c6b26514260138515a2a/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/00214962e6768c222645d32408ca1729/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d8ad482492aa65e32ca17a3d67644ffb/media-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd9b71644d8d50b096ea41f443b06c09/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/21b680ef50575bd4e726d6240d207458/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/e4751bee246930ea8629ed2bef3284f2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b616573894cb2811c088861f25e88000/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/067eb1428a1ab507fc6191d586672e2b/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8515fe5dba21667cab2de345f48acb07/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c241a691e7363962f25f1212c3242826/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bb8af936e68820d6b1e9e9bcb00a41f8/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c162898e54ad306f102a6a801609e248/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7c35cb62d72cbf034171c93e02469621/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2cf332e877ebd3666b94dd8962093a0f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/19e7c46beb1fd4b0b968bee7b87f978e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f1888c44bf29544b294d23f823f46cd3/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0dad11f653e40afbb09ac7bc0885f849/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/be2adc111049973cb6088db4fa60b5fc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/43378fa431277dbcd9579eb6a97028f9/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db38944451a730e0320ed0e198a2d79a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2983ca5f6ab2639ddd0bb5e86f4d1cc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/9ed287ff2565edddee8ec1969c50b06c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha02] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a1965d5af4effa763a58ce9ade7b207d/jetified-viewbinding-4.0.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d42517620f2ad850415603aee6563e10/jetified-rxbinding-appcompat-3.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0819214105e6235845fa0c5a44cbf130/jetified-exoplayer-2.10.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac2b54dcfe157dcb6403a3c2d966cde4/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding-recyclerview:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/95c6afa669d77445eeadabca2a1166c5/jetified-rxbinding-recyclerview-3.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0caff82a521f23cece9f1e5f9e25e861/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/24ee9c9153df06edd50665ef6df597c6/jetified-glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding-core:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ab32235337d22e905117252587bd3e59/jetified-rxbinding-core-3.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4548e1f6d06249312ab1980b2152e26c/jetified-rxbinding-3.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eb01b89b088f807d43cb5bbc00d4a393/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/13ab284afc546b38e0b895d43f8a9cd1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7b8ea8a4aeace5812a3aec9d402ef2a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/dfdfaf56e0b0a3f126fd692e8dfaf0af/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/026a74a33a0db8fde094b3414e5a48b3/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c0753f8ff0632d77ed4f65fb8aa023e4/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/89f804a88c8f1bf31e7a30988ca6bacb/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/75fdef968019adcf1089a81ab0bfcc9c/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c01e5b00a7d8b813b9dee5b5e640a906/media-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ee6141d8186f8d97ea2f6d0d52f2af55/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/83945058f6eecdd2ba2bf5cdf90f5544/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/837de341a797450c75a09ebb4c49947f/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/3b1506bff1399ba0bd4f76d4011c569c/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4b795555cb4ce652ae16b9b723aba167/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/991c25481a330ace699a10b26ad37984/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/efcd0ce6237121a129acf9f92cce3707/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/347eb6ab34359b2347aa6aef58af0b33/jetified-gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e60ce21f38813450769c2550284c4c8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/252460a0d4062d0394772b8bf427fa69/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4bc44d24a4a8a06933969626556211ed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/26d06904e9ca3cb6c8cb12e83fbce98d/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f4a193b1a276be068b4456f76f1d9b3b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8ac534f7c05da7c0171fdbd7104f80bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/37d850288f46f406dcc61b14878a80f8/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/053b5597f92d1fb068cf947cc3e7732c/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:3:5-41
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:7:5-22:19
-MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0aae841188d341154a3b1fb9572b0b01/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0aae841188d341154a3b1fb9572b0b01/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c162898e54ad306f102a6a801609e248/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c162898e54ad306f102a6a801609e248/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/24ee9c9153df06edd50665ef6df597c6/jetified-glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/24ee9c9153df06edd50665ef6df597c6/jetified-glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/347eb6ab34359b2347aa6aef58af0b33/jetified-gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/347eb6ab34359b2347aa6aef58af0b33/jetified-gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:14:9-44
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:14:9-44
 activity#com.ademir.exotransitionin.MainActivity
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:4.0.0-alpha01] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bacb2e9f9cb28d404528e5c897ddcfc8/jetified-viewbinding-4.0.0-alpha01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.0.0-alpha01] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bacb2e9f9cb28d404528e5c897ddcfc8/jetified-viewbinding-4.0.0-alpha01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15ce366fd993d4b14f69949366ceceb1/jetified-exoplayer-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15ce366fd993d4b14f69949366ceceb1/jetified-exoplayer-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4653f6fd022d638d7d3cc51271299eae/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4653f6fd022d638d7d3cc51271299eae/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0aae841188d341154a3b1fb9572b0b01/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0aae841188d341154a3b1fb9572b0b01/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7d0fdf149075b4af9bfe5b0a37c8a8ac/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7d0fdf149075b4af9bfe5b0a37c8a8ac/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/033e7924ed066e721545efec941b7d0e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/033e7924ed066e721545efec941b7d0e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e12bcb59f5cca04704c5500ba1b526b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e12bcb59f5cca04704c5500ba1b526b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5985a6ad176b6dae507e8e9bd41b92b7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5985a6ad176b6dae507e8e9bd41b92b7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5f9769373f1803681a7055c81f99421c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/5f9769373f1803681a7055c81f99421c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f13e0019184ef6aac1a2cbf92d5f2481/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f13e0019184ef6aac1a2cbf92d5f2481/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eecc9aa0b9a1b3fce437279cf94dcd7b/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eecc9aa0b9a1b3fce437279cf94dcd7b/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac66b66457a7b9cdb9ab93d2e8233012/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac66b66457a7b9cdb9ab93d2e8233012/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d186eea89e36fa921a5edd1cef39563/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d186eea89e36fa921a5edd1cef39563/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4e707f93671c5f21d4b1e3bd474df8a7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4e707f93671c5f21d4b1e3bd474df8a7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd99276c75ece92bccd1999b2404e3bd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd99276c75ece92bccd1999b2404e3bd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b93d28e456cd3dee424cdb26b2b4b08a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b93d28e456cd3dee424cdb26b2b4b08a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d748e4fa12c4f08b89c26ec88aa6fb5e/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d748e4fa12c4f08b89c26ec88aa6fb5e/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/574f4007d3ead9c75165770ab2c57eaa/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/574f4007d3ead9c75165770ab2c57eaa/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b4bd2b03b424c6b26514260138515a2a/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b4bd2b03b424c6b26514260138515a2a/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/00214962e6768c222645d32408ca1729/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/00214962e6768c222645d32408ca1729/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d8ad482492aa65e32ca17a3d67644ffb/media-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d8ad482492aa65e32ca17a3d67644ffb/media-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd9b71644d8d50b096ea41f443b06c09/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/fd9b71644d8d50b096ea41f443b06c09/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/21b680ef50575bd4e726d6240d207458/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/21b680ef50575bd4e726d6240d207458/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/e4751bee246930ea8629ed2bef3284f2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/e4751bee246930ea8629ed2bef3284f2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b616573894cb2811c088861f25e88000/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/b616573894cb2811c088861f25e88000/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/067eb1428a1ab507fc6191d586672e2b/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/067eb1428a1ab507fc6191d586672e2b/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8515fe5dba21667cab2de345f48acb07/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8515fe5dba21667cab2de345f48acb07/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c241a691e7363962f25f1212c3242826/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c241a691e7363962f25f1212c3242826/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bb8af936e68820d6b1e9e9bcb00a41f8/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/bb8af936e68820d6b1e9e9bcb00a41f8/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c162898e54ad306f102a6a801609e248/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c162898e54ad306f102a6a801609e248/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7c35cb62d72cbf034171c93e02469621/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7c35cb62d72cbf034171c93e02469621/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2cf332e877ebd3666b94dd8962093a0f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2cf332e877ebd3666b94dd8962093a0f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/19e7c46beb1fd4b0b968bee7b87f978e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/19e7c46beb1fd4b0b968bee7b87f978e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f1888c44bf29544b294d23f823f46cd3/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f1888c44bf29544b294d23f823f46cd3/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0dad11f653e40afbb09ac7bc0885f849/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0dad11f653e40afbb09ac7bc0885f849/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/be2adc111049973cb6088db4fa60b5fc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/be2adc111049973cb6088db4fa60b5fc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/43378fa431277dbcd9579eb6a97028f9/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/43378fa431277dbcd9579eb6a97028f9/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db38944451a730e0320ed0e198a2d79a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db38944451a730e0320ed0e198a2d79a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2983ca5f6ab2639ddd0bb5e86f4d1cc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/2983ca5f6ab2639ddd0bb5e86f4d1cc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/9ed287ff2565edddee8ec1969c50b06c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/9ed287ff2565edddee8ec1969c50b06c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha02] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a1965d5af4effa763a58ce9ade7b207d/jetified-viewbinding-4.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha02] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a1965d5af4effa763a58ce9ade7b207d/jetified-viewbinding-4.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d42517620f2ad850415603aee6563e10/jetified-rxbinding-appcompat-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d42517620f2ad850415603aee6563e10/jetified-rxbinding-appcompat-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0819214105e6235845fa0c5a44cbf130/jetified-exoplayer-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0819214105e6235845fa0c5a44cbf130/jetified-exoplayer-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac2b54dcfe157dcb6403a3c2d966cde4/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ac2b54dcfe157dcb6403a3c2d966cde4/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ademir/.gradle/caches/transforms-2/files-2.1/96cdaff78c50e61d15d0649ac640ca88/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.rxbinding3:rxbinding-recyclerview:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/95c6afa669d77445eeadabca2a1166c5/jetified-rxbinding-recyclerview-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding-recyclerview:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/95c6afa669d77445eeadabca2a1166c5/jetified-rxbinding-recyclerview-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0caff82a521f23cece9f1e5f9e25e861/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0caff82a521f23cece9f1e5f9e25e861/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/24ee9c9153df06edd50665ef6df597c6/jetified-glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/24ee9c9153df06edd50665ef6df597c6/jetified-glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton.rxbinding3:rxbinding-core:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ab32235337d22e905117252587bd3e59/jetified-rxbinding-core-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding-core:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ab32235337d22e905117252587bd3e59/jetified-rxbinding-core-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4548e1f6d06249312ab1980b2152e26c/jetified-rxbinding-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4548e1f6d06249312ab1980b2152e26c/jetified-rxbinding-3.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8d14093946a073a4655ca35a7d20f1f8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eb01b89b088f807d43cb5bbc00d4a393/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/eb01b89b088f807d43cb5bbc00d4a393/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/13ab284afc546b38e0b895d43f8a9cd1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/13ab284afc546b38e0b895d43f8a9cd1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8dd726b7b38a20cb5439029404037432/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7b8ea8a4aeace5812a3aec9d402ef2a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/7b8ea8a4aeace5812a3aec9d402ef2a3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/dfdfaf56e0b0a3f126fd692e8dfaf0af/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/dfdfaf56e0b0a3f126fd692e8dfaf0af/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/29c63355b84aafd0d65415988c4f121a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/cb41912cdb6d65cf600cef7673183ca1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/026a74a33a0db8fde094b3414e5a48b3/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/026a74a33a0db8fde094b3414e5a48b3/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c78de3a4955ec4a25b23e0d11d36db40/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/d27f6085b840924dd4e0fca7d41f4d8c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c0753f8ff0632d77ed4f65fb8aa023e4/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c0753f8ff0632d77ed4f65fb8aa023e4/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/89f804a88c8f1bf31e7a30988ca6bacb/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/89f804a88c8f1bf31e7a30988ca6bacb/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/226cef7af3f65d8e1feb6e2a265f88bf/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/75fdef968019adcf1089a81ab0bfcc9c/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/75fdef968019adcf1089a81ab0bfcc9c/jetified-exoplayer-ui-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c01e5b00a7d8b813b9dee5b5e640a906/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c01e5b00a7d8b813b9dee5b5e640a906/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ee6141d8186f8d97ea2f6d0d52f2af55/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ee6141d8186f8d97ea2f6d0d52f2af55/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/83945058f6eecdd2ba2bf5cdf90f5544/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/83945058f6eecdd2ba2bf5cdf90f5544/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/0607d870d638e0bbda4c9df15494b171/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/837de341a797450c75a09ebb4c49947f/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/837de341a797450c75a09ebb4c49947f/jetified-exoplayer-dash-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/3b1506bff1399ba0bd4f76d4011c569c/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/3b1506bff1399ba0bd4f76d4011c569c/jetified-exoplayer-hls-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4b795555cb4ce652ae16b9b723aba167/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4b795555cb4ce652ae16b9b723aba167/jetified-exoplayer-smoothstreaming-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/991c25481a330ace699a10b26ad37984/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/991c25481a330ace699a10b26ad37984/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/efcd0ce6237121a129acf9f92cce3707/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/efcd0ce6237121a129acf9f92cce3707/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/347eb6ab34359b2347aa6aef58af0b33/jetified-gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/347eb6ab34359b2347aa6aef58af0b33/jetified-gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4f85b611fc4af09a5c0c5c6904ae532c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/76f3f6aae4dab4a59df0b1fab21aeacd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e60ce21f38813450769c2550284c4c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/6e60ce21f38813450769c2550284c4c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/252460a0d4062d0394772b8bf427fa69/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/252460a0d4062d0394772b8bf427fa69/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4bc44d24a4a8a06933969626556211ed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/4bc44d24a4a8a06933969626556211ed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/db549b1698276c3bccb5a258c62911c8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/15670e8f0b3a4e7c806fc67f39eca770/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/26d06904e9ca3cb6c8cb12e83fbce98d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/26d06904e9ca3cb6c8cb12e83fbce98d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f4a193b1a276be068b4456f76f1d9b3b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/f4a193b1a276be068b4456f76f1d9b3b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8ac534f7c05da7c0171fdbd7104f80bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/8ac534f7c05da7c0171fdbd7104f80bd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/37d850288f46f406dcc61b14878a80f8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ademir/.gradle/caches/transforms-2/files-2.1/37d850288f46f406dcc61b14878a80f8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/053b5597f92d1fb068cf947cc3e7732c/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ademir/.gradle/caches/transforms-2/files-2.1/053b5597f92d1fb068cf947cc3e7732c/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ademir/workspace/ExoTransitionin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ademir/workspace/classroom/ExoTransition/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c241a691e7363962f25f1212c3242826/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:24:5-79
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/991c25481a330ace699a10b26ad37984/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/c241a691e7363962f25f1212c3242826/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:24:22-76
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.10.6] /Users/ademir/.gradle/caches/transforms-2/files-2.1/991c25481a330ace699a10b26ad37984/jetified-exoplayer-core-2.10.6/AndroidManifest.xml:24:22-76

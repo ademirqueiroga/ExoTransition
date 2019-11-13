@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.ademir.exotransitionin.CustomPlayerView;
 import com.ademir.exotransitionin.R;
-import com.google.android.exoplayer2.ui.PlayerView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +20,12 @@ public final class RowVideoBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final PlayerView playerView;
+  public final CustomPlayerView playerView;
 
   @NonNull
   public final ImageView thumb;
 
-  private RowVideoBinding(@NonNull ConstraintLayout rootView, @NonNull PlayerView playerView,
+  private RowVideoBinding(@NonNull ConstraintLayout rootView, @NonNull CustomPlayerView playerView,
       @NonNull ImageView thumb) {
     this.rootView = rootView;
     this.playerView = playerView;
@@ -59,7 +59,7 @@ public final class RowVideoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     String missingId;
     missingId: {
-      PlayerView playerView = rootView.findViewById(R.id.player_view);
+      CustomPlayerView playerView = rootView.findViewById(R.id.player_view);
       if (playerView == null) {
         missingId = "playerView";
         break missingId;

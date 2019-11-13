@@ -1,31 +1,49 @@
 package com.ademir.exotransitionin
 
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.app.SharedElementCallback
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.transition.Fade
+import androidx.transition.Slide
 import androidx.transition.TransitionInflater
 import com.ademir.exotransitionin.databinding.FragmentPlayerBinding
-import com.google.android.exoplayer2.ExoPlayerFactory
-import com.google.android.exoplayer2.Player
-import com.google.android.exoplayer2.source.MediaSource
-import com.google.android.exoplayer2.source.ProgressiveMediaSource
-import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import com.google.android.exoplayer2.util.Util
+import com.google.android.exoplayer2.ui.PlayerView
 
 
 class PlayerFragment : Fragment() {
 
     private lateinit var viewBinding: FragmentPlayerBinding
-    private var player: Player? = null
     private var video: Video? = null
+
+    private val sharedElementCallback = object : SharedElementCallback() {
+        override fun onSharedElementEnd(
+            sharedElementNames: MutableList<String>?,
+            sharedElements: MutableList<View>?,
+            sharedElementSnapshots: MutableList<View>?
+        ) {
+            super.onSharedElementEnd(sharedElementNames, sharedElements, sharedElementSnapshots)
+            sharedElements?.forEach { sharedView ->
+                if (sharedView.transitionName == video?.let(::getTransitionName)) {
+                    val player = PlayerSingleton.getInstance(requireContext())
+                    val oldView = sharedView as PlayerView
+//                    PlayerView.switchTargetView(player, oldView, viewBinding.playerView)
+                }
+            }
+        }
+    }
+
+    override fun onViewStateRestored(savedInstanceState: Bundle?) {
+        super.onViewStateRestored(savedInstanceState)
+        viewLifecycleOwner.lifecycle.addObserver(viewBinding.playerView)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setEnterSharedElementCallback(sharedElementCallback)
         postponeEnterTransition()
         readArgs()
     }
@@ -46,20 +64,12 @@ class PlayerFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        if (player == null) {
-            // Produces DataSource instances through which media data is loaded.
-            val dataSourceFactory =
-                DefaultDataSourceFactory(context, Util.getUserAgent(context, "yourApplicationName"))
-            // This is the MediaSource representing the media to be played.
-            val videoSource: MediaSource =
-                ProgressiveMediaSource.Factory(dataSourceFactory)
-                    .createMediaSource(Uri.parse(video?.url))
-            // Prepare the player with the source.
-            this.player = ExoPlayerFactory.newSimpleInstance(context).apply {
-                prepare(videoSource)
-            }
-        }
-        viewBinding.playerView.player = player
+        sharedElementReturnTransition = Fade()
+            .setDuration(2000L)
+            .excludeTarget(viewBinding.playerView, true)
+        returnTransition = Slide().setDuration(2000L)
+        viewBinding.playerView.lifecycle = viewLifecycleOwner.lifecycle
+        viewBinding.playerView.player = PlayerSingleton.getInstance(requireContext())
         startPostponedEnterTransition()
     }
 
@@ -69,8 +79,7 @@ class PlayerFragment : Fragment() {
 
     companion object {
         private const val VIDEO_EXTRA = "args_video_extra"
-        fun newInstance(video: Video, player: Player? = null) = PlayerFragment().apply {
-            this.player = player
+        fun newInstance(video: Video) = PlayerFragment().apply {
             arguments = bundleOf(VIDEO_EXTRA to video)
         }
 

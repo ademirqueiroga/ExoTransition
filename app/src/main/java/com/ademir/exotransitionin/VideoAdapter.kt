@@ -1,17 +1,11 @@
 package com.ademir.exotransitionin
 
-import android.net.Uri
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ademir.exotransitionin.databinding.RowVideoBinding
-import com.google.android.exoplayer2.ExoPlayerFactory
-import com.google.android.exoplayer2.source.MediaSource
-import com.google.android.exoplayer2.source.ProgressiveMediaSource
-import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import com.google.android.exoplayer2.util.Util
+import com.bumptech.glide.Glide
 
 class VideoAdapter(
     private val onClick: (View) -> Unit
@@ -36,12 +30,40 @@ class VideoAdapter(
         notifyDataSetChanged()
     }
 
+    fun fakeData() {
+        setData(
+            listOf(
+                Video(
+                    "https://image.shutterstock.com/image-photo/movie-projector-on-dark-background-600w-753798850.jpg",
+                    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                ),
+                Video(
+                    "https://image.shutterstock.com/image-vector/online-cinema-art-movie-watching-600w-586719869.jpg",
+                    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                ),
+                Video(
+                    "https://image.shutterstock.com/image-photo/young-people-sitting-cinema-watching-600w-526930675.jpg",
+                    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+                ),
+                Video(
+                    "https://image.shutterstock.com/image-photo/young-woman-friends-watching-movie-600w-535946224.jpg",
+                    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+                ),
+                Video(
+                    "https://image.shutterstock.com/image-photo/movie-clapper-film-reel-on-600w-169841813.jpg",
+                    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+                )
+            )
+        )
+    }
+
     class VideoViewHolder(
         itemView: View,
         onClick: (View) -> Unit
     ) : RecyclerView.ViewHolder(itemView) {
 
         private val viewBinding = RowVideoBinding.bind(itemView)
+        var videoUrl: String? = null
 
         init {
             itemView.setOnClickListener {
@@ -50,27 +72,31 @@ class VideoAdapter(
         }
 
         fun bind(item: Video) {
+            if (!item.thumb.isBlank()) {
+                Glide.with(viewBinding.playerView)
+                    .load(item.thumb)
+                    .into(viewBinding.playerView.thumb)
+            }
             if (!item.url.isBlank()) {
-                // Produces DataSource instances through which media data is loaded.
-                val dataSourceFactory =
-                    DefaultDataSourceFactory(
-                        itemView.context,
-                        Util.getUserAgent(itemView.context, "yourApplicationName")
-                    )
-                // This is the MediaSource representing the media to be played.
-                val videoSource: MediaSource =
-                    ProgressiveMediaSource.Factory(dataSourceFactory)
-                        .createMediaSource(Uri.parse(item.url))
-                // Prepare the player with the source.
+                videoUrl = item.url
                 viewBinding.playerView.tag = item
                 viewBinding.playerView.transitionName = PlayerFragment.getTransitionName(item)
-                viewBinding.playerView.player =
-                    ExoPlayerFactory.newSimpleInstance(itemView.context).apply {
-                        playWhenReady = true
-                        prepare(videoSource)
-                    }
             }
-
         }
+
+        fun removePlayer() {
+            viewBinding.playerView.player?.playWhenReady = false
+            viewBinding.playerView.player = null
+        }
+
+        fun playVideo() {
+            viewBinding.playerView.player = PlayerSingleton.getInstance(itemView.context).apply {
+                volume = 0F
+                playWhenReady = true
+            }
+            videoUrl?.let { viewBinding.playerView.loadVideo(it, true) }
+        }
+
     }
+
 }

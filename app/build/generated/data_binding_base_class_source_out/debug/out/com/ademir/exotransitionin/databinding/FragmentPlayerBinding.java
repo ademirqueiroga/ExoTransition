@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.ademir.exotransitionin.CustomPlayerView;
 import com.ademir.exotransitionin.R;
-import com.google.android.exoplayer2.ui.PlayerView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,7 +20,7 @@ public final class FragmentPlayerBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final PlayerView playerView;
+  public final CustomPlayerView playerView;
 
   @NonNull
   public final TextView subtitle;
@@ -28,8 +28,8 @@ public final class FragmentPlayerBinding implements ViewBinding {
   @NonNull
   public final TextView title;
 
-  private FragmentPlayerBinding(@NonNull ConstraintLayout rootView, @NonNull PlayerView playerView,
-      @NonNull TextView subtitle, @NonNull TextView title) {
+  private FragmentPlayerBinding(@NonNull ConstraintLayout rootView,
+      @NonNull CustomPlayerView playerView, @NonNull TextView subtitle, @NonNull TextView title) {
     this.rootView = rootView;
     this.playerView = playerView;
     this.subtitle = subtitle;
@@ -63,7 +63,7 @@ public final class FragmentPlayerBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     String missingId;
     missingId: {
-      PlayerView playerView = rootView.findViewById(R.id.player_view);
+      CustomPlayerView playerView = rootView.findViewById(R.id.player_view);
       if (playerView == null) {
         missingId = "playerView";
         break missingId;

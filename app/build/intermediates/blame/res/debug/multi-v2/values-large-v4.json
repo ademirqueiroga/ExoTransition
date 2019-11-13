@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/ademir/workspace/classroom/ExoTransition/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/47d5804a218c907786dc454bf9d99a53/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/41cd629fd9a50e9f47ecf8171b1c39cf/material-1.0.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

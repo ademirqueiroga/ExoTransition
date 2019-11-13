@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/Users/ademir/workspace/classroom/ExoTransition/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/res/values-nl/values-nl.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/00214962e6768c222645d32408ca1729/jetified-exoplayer-ui-2.10.6/res/values-nl/values-nl.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/75fdef968019adcf1089a81ab0bfcc9c/jetified-exoplayer-ui-2.10.6/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/f5e1aa12715bf93592a9e8fcd93abf7f/core-1.1.0/res/values-nl/values-nl.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/ec4df20c44042760ddced03ead47e8bd/core-1.1.0/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

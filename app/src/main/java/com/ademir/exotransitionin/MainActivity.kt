@@ -5,6 +5,8 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.ademir.exotransitionin.databinding.ActivityMainBinding
+import com.google.android.exoplayer2.ExoPlayerFactory
+import com.google.android.exoplayer2.SimpleExoPlayer
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +16,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        PlayerSingleton.getInstance(applicationContext).stop(true)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        PlayerSingleton.getInstance(applicationContext).release()
     }
 
     fun navigate(destination: Fragment, sharedView: View? = null) {

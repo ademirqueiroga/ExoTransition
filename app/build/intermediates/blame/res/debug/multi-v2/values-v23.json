@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ademir/workspace/ExoTransitionin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/ademir/workspace/classroom/ExoTransition/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/bb8af936e68820d6b1e9e9bcb00a41f8/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/efcd0ce6237121a129acf9f92cce3707/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/2144c33fffd8e0ac7e27daededdf3339/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ademir/.gradle/caches/transforms-2/files-2.1/a582fa6f5ec25b4ebdf31a91e28d5f0d/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
